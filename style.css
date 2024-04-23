@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body {
+    background-color: #ff5b9f26;
+}
+
+#top-con {
+    height: 50%;
+}
+#top-con #overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 10;
+    width: 99%;
+    height: 33%;
+    background-color: rgba(0, 0, 0, 0.5); /* Siyah ile yarı saydamlık */
+    border-radius: 10px;
+}
+
+.col-lg-12 #bg-img {
+    width: 100%;
+    height: 33%; /* Otomatik yükseklik */
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.overlay .clearfix {
+    background-color: rgba(255, 250, 250, 0.164); /* Siyah ile yarı saydamlık */
+    width: 90%;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+.overlay {
+    display: flex;
+    flex-direction: column; /* Sütun (dikey) yönde sırala */
+    justify-content: top; /* Dikeyde ortala */
+    align-items: center; /* Yatayda ortala */
+    background-color: rgba(255, 250, 250, 0.164); /* Siyah ile yarı saydamlık */
+    width: 90%;
+    border-radius: 10px;
+}
+
+.overlay .clearfix h2{
+    margin-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;    
+}
+
+.overlay .clearfix p{
+    margin-top: 40px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;    
+}
+
+.overlay .clearfix img{
+    border-radius: 10px;
+}
+
+    /* Pembe renkli düğme için özel stil */
+.btn-pink {
+    border-color: #ff69b4; /* Kenarlık rengi */
+    color: aliceblue; /* Yazı rengi */
+    background-color: #ff5b9e; /* Hover rengi */
+
+    }
+.btn-pink:hover {
+    color: aliceblue;
+    border-color: #ff5b9e; /* Hover kenarlık rengi */
+    }
+
+
+.btn-pink2 {
+    border-color: #ff69b4; /* Kenarlık rengi */
+    color: aliceblue; /* Yazı rengi */
+    background-color: #ff5b9e; /* Hover rengi */
+    
+    }
+.btn-pink2:hover {
+    color: aliceblue;
+    border-color: #c92368; /* Hover kenarlık rengi */
+    background-color: #c92368; /* Hover rengi */
+
+    }
+
+#button-2 {
+    margin-top: 100px;
+    width: 200px;
+    height: 40%;
+}
+
+#mid-con {
+    margin-top: 40px;
+    background-color: rgba(57, 14, 56, 0.442); /* Siyah ile yarı saydamlık */
+
+}
+
+.card {
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transform özelliğine geçiş efekti ekle */
+}
+
+.card img:hover {
+    transform: scale(1.2); /* Mouse üzerine gelindiğinde resmi 1.1 kat büyüt */
+}
+
+
+
+
+.icons img{
+    margin: 30px;
+}
+
+
+.icons img:hover{
+    margin: 30px;
+    scale: 1.1;
+}

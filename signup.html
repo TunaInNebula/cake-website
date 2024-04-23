@@ -1,0 +1,73 @@
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="font-family: 'Indie Flower', cursive; font-weight: bold;">Violet
+            Cakes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="">Home <span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href=#>About</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+
+
+                <a href="{% url 'violetapp:signup' %}" class="nav-link">Sign Up</a>
+                <a href="{% url 'login' %}" class="nav-link">Login</a>
+
+
+
+            </div>
+
+        </div>
+    </nav>
+
+    <head>
+
+        <head>
+            <style>
+                body {
+                    background-color: #ff5b9f1a;
+                }
+
+                .container {
+                    margin-top: 40px;
+                }
+
+                .btn-pink {
+                    border-color: #ff69b4;
+                    /* Kenarlık rengi */
+                    color: aliceblue;
+                    /* Yazı rengi */
+                    background-color: #ff5b9e;
+                    /* Hover rengi */
+
+                }
+
+                .btn-pink:hover {
+                    color: rgb(2, 2, 2);
+                    border-color: #ff5b9e;
+                    /* Hover kenarlık rengi */
+                }
+            </style>
+        </head>
+
+
+        <div class="container" style="width: 50%; border-radius: 30px;">
+            <form action="" method="POST" style="border-radius: 20px; background-color: #ff5b9f1a;">
+                <h2>deneme</h2>
+                <div class="form-control" style="border-radius: 40px; background-color: #ff5b9f1a;">
+                    {{field.label_tag}}
+                    {{field}}
+                </div>
+                {%endfor%}
+                <button type="submit" class="btn btn-pink"
+                    style="margin-top: 10px; border-radius: 40px; justify-content: right; display: flex;" value="signup"
+                    name="signup">Sign Up</button>
+            </form>
+
+
+        </div>

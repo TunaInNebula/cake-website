@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+
+.carousel {
+    border-radius: 40px;
+    width: 100%;
+}
+
+img {
+    border-radius: 40px;
+}
+
+.carousel-inner {
+    border-radius: 40px;
+
+}
+
+.card {
+    color: aliceblue;
+    background-color: rgba(203, 177, 206, 0.459);
+    margin-left: 180px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.btn-pink {
+    border-color: #ff69b4; /* Kenarlık rengi */
+    color: aliceblue; /* Yazı rengi */
+    background-color: #ff5b9e; /* Hover rengi */
+
+    }
+.btn-pink:hover {
+    color: aliceblue;
+    border-color: #ff5b9e; /* Hover kenarlık rengi */
+    }
+
+
+.btn-pink2 {
+    border-color: #ff69b4; /* Kenarlık rengi */
+    color: aliceblue; /* Yazı rengi */
+    background-color: #ff5b9e; /* Hover rengi */
+    
+    }
+.btn-pink2:hover {
+    color: aliceblue;
+    border-color: #c92368; /* Hover kenarlık rengi */
+    background-color: #c92368; /* Hover rengi */
+}
+
+
+.carousel-frame {
+    border: 20px solid #ccc; /* Adjust border properties as needed */
+    padding: 0px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    border-radius: 60px;
+}
+
+#lilyrow {
+    background-color: rgba(0, 0, 0, 0.5); /* Siyah arka plan rengi ve opaklık */
+    padding: 20px; /* İçeriğin etrafında biraz boşluk bırakmak için */
+}
